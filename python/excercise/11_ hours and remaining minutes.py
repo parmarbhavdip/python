@@ -7,5 +7,5 @@ minutes=int(input("enter minute and hours="))
 hours=minutes // 60
 minutes=minutes % 60
 
-print(f"{hours} hours and {minutes} minutes")
+print(hours,"hours",minutes,"minutes")
 
