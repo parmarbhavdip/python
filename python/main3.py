@@ -7,11 +7,12 @@ def heartb(k):
           math.cos(2 * k)- 2 * \
           math.cos(3 * k) -  \
        math.cos(4 * k)
-speed(0.3)
+speed(0.1)
 bgcolor("black")
 for i in range(600000):
     goto(hearta(i)*20, heartb(i)*20)
     for j in range(3):
          color("red")
          goto(0,0)
+ 
 done()
