@@ -1,4 +1,5 @@
 '''write a program to findout most young person from 4 person given age'''
+
 age1 = int(input("Enter age of person 1: "))
 age2 = int(input("Enter age of person 2: "))
 age3 = int(input("Enter age of person 3: "))
