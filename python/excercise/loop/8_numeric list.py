@@ -10,5 +10,6 @@ for num in num_list:
           even_count+=1
      else:
           odd_count+=1
+          
 print("total even number is :",even_count)
 print("total odd number is :",odd_count)
