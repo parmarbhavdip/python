@@ -23,6 +23,6 @@ for i in range(0, 360, 2):
 
 goto(0, -20)
 color("white")
-write("HIMANSHU", align="center", font=("Arial", 24, "bold"))
+write("B", align="center", font=("Arial", 24, "bold"))
 
 done()
