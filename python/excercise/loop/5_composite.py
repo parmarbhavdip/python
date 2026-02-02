@@ -1,21 +1,16 @@
 ''' write a program to figure out whether given number  is composite number or not'''
+import sys
+number=int(input("enter any number..."))
+temp=1
+temp<=number
 
-num = int(input("Enter a number: "))
-
-is_composite = False
-
-for i in range(2, num):
-     
-    if num % i == 0:
-        is_composite = True
-        
-        break
-   
-if is_composite:
-    print(f"{num} is a composite number.")
-    
-else:
-    print(f"{num} is not a composite number.")
-    
+while number % temp==0:
+    temp=temp+1
+    if number %temp==0:
+        print("this number is composite number...")
+        sys.exit()
+    else:
+        print("this number is not composite number ...")
+print("good by ")
 
 
